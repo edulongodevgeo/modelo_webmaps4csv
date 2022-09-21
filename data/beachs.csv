@@ -1,5 +1,5 @@
-latitude,longitude,title
--27.594055,-48.562879,"Praia do Rita Maria"
+latitude,longitude,title,reference_url,thumbnail_url
+-27.594055,-48.562879,"Praia do Rita Maria",https://pixabay.com/pt/photos/praia-cais-p%c3%b4r-do-sol-mar-oceano-6089501/,https://cdn.pixabay.com/photo/2021/03/12/12/28/beach-6089501_960_720.jpg
 -27.602192,-48.553307,"Praia do Miramar"
 -27.609686,-48.548595,"Prainha"
 -27.612660,-48.547872,"Praia do José Mendes"

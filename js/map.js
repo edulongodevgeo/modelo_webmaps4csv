@@ -60,11 +60,12 @@ function mapCSV(data){
 		markers.addLayer(marker)
 
 		// add entry to sidebar
-		$('.sidebar').append(`&#10004; ${item.title}<br>`)
-		
+		//SAFE
+		//$('.sidebar').append('<div class="sidebar-item">' + item.title + '</div>')
+		//$('.sidebar').append(`&#10004; ${item.title}<br>`)
     		
 		//Se tiver imagem e quiser usar onmouseover
-        //$('.sidebar').append(`<img src="${item.thumbnail_url}" onmouseover="panToImage(${index})">`)
+        $('.sidebar').append('<div class="sidebar-item">' + item.title + `<img src="${item.thumbnail_url} " onmouseover="panToImage(${index})">` + '</div>')
 	})
 
 	// add featuregroup to map
